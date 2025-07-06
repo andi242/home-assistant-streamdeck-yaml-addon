@@ -11,9 +11,9 @@ RUN apk --no-cache add \
     hidapi-dev=0.14.0-r0 \
     libffi-dev=3.4.7-r0 \
     # Needed for cairosvg
-    cairo-dev=1.18.2-r1 \
+    cairo-dev=1.18.4-r0 \
     # Needed for lxml
-    libxml2-dev=2.13.4-r5 \
+    libxml2-dev=2.13.4-r6 \
     libxslt-dev=1.1.42-r2 \
     # Needed for Pillow
     jpeg-dev=9f-r0 \
@@ -24,7 +24,7 @@ RUN apk --no-cache add \
     && apk add --no-cache --virtual build-deps \
     # General
     gcc=14.2.0-r4 \
-    python3-dev=3.12.10-r0 \
+    python3-dev=3.12.11-r0 \
     musl-dev=1.2.5-r9
 
 # Download and unzip the repository
